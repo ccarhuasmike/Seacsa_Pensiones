@@ -1,0 +1,26 @@
+; Field definition file for table: ADORecordset
+GLS_NOMBEN	string	50	string sample value
+GLS_NOMSEGBEN	string	50	string sample value
+GLS_PATBEN	string	50	string sample value
+GLS_MATBEN	string	50	string sample value
+COD_SEXO	string	5	string sample value
+COD_TIPOIDENBEN	number		1.00
+NUM_IDENBEN	string	16	string sample value
+GLS_DIRBEN	string	100	string sample value
+FEC_INIPAGOPEN	string	8	string sample value
+MTO_PENSION	number		1.00
+GLS_COMUNA	string	50	string sample value
+GLS_PROVINCIA	string	50	string sample value
+GLS_REGION	string	50	string sample value
+FEC_VIGENCIA	string	8	string sample value
+COD_MODALIDAD	string	5	string sample value
+COD_COBERCON	string	5	string sample value
+COD_DERCRE	string	5	string sample value
+COD_DERGRA	string	5	string sample value
+COD_MONEDA	string	5	string sample value
+INSTITUCION	string	50	string sample value
+COBERCON	string	50	string sample value
+TIPO_RENTA	string	50	string sample value
+TIPO_PENSION	string	50	string sample value
+TIPO_MODALIDAD	string	50	string sample value
+FECHA_ULT_LIQ	string	6	string sample value

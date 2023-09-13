@@ -1,0 +1,11 @@
+; Field definition file for table: ADORecordset
+COD_TIPPENSION	string	5	string sample value
+TIPO_PENSION	string	200	string sample value
+AFP	string	200	string sample value
+NOMBRE	string	203	string sample value
+CONTRATANTE	string	203	string sample value
+NUM_ORDEN	number		1.00
+FECHA_PAGO	datetime		Jan 5, 1994 1:23:45 PM
+NUM_CTABCO	string	25	string sample value
+BANCO	string	200	string sample value
+NUM_IDENBEN	string	16	string sample value

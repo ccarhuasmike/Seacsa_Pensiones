@@ -1,0 +1,6 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+NOMBRES	string	65	string sample value
+DIRECCION	string	120	string sample value
+DIRECCION2	string	160	string sample value
+GLS_FONO	string	15	string sample value

@@ -1,0 +1,33 @@
+; Field definition file for table: ADORecordset
+COD_USUARIO	string	10	string sample value
+NUM_PERPAGO	string	6	string sample value
+NUM_RETENCION	number		1.00
+NUM_CARGAS	number		1.00
+MTO_CARGA	number		1.00
+MTO_HABER	number		1.00
+MTO_DESCTO	number		1.00
+MTO_RETNETA	number		1.00
+FEC_PAGO	string	8	string sample value
+NUM_POLIZA	string	10	string sample value
+NUM_ORDEN	number		1.00
+MTO_RET	number		1.00
+NUM_IDENRECEPTOR	string	16	string sample value
+GLS_NOMRECEPTOR	string	25	string sample value
+GLS_NOMSEGRECEPTOR	string	25	string sample value
+GLS_PATRECEPTOR	string	20	string sample value
+GLS_MATRECEPTOR	string	20	string sample value
+COD_MONEDA	string	5	string sample value
+GLS_NOMBEN	string	50	string sample value
+GLS_NOMSEGBEN	string	50	string sample value
+GLS_MATBEN	string	50	string sample value
+GLS_PATBEN	string	50	string sample value
+MTO_VALMONEDA	number		1.00
+GLS_TIPOIDEN	string	50	string sample value
+VIAPAGO	string	200	string sample value
+MODORET	string	200	string sample value
+MONEDA	string	200	string sample value
+TIPOCUENTA	string	200	string sample value
+BANCO	string	200	string sample value
+NUM_CUENTA	string	15	string sample value
+COD_CUSPP	string	12	string sample value
+COD_MODRET	string	5	string sample value

@@ -1,0 +1,52 @@
+; Field definition file for table: ADORecordset
+COD_USUARIO	string	10	string sample value
+NUM_POLIZA	string	10	string sample value
+NUM_ORDEN	number		1.00
+FEC_PAGO	string	8	string sample value
+COD_MONEDA	string	5	string sample value
+MTO_VALMONEDA	number		1.00
+COD_TIPPENSION	string	5	string sample value
+COD_TIPOIDENBEN	number		1.00
+NUM_IDENBEN	string	16	string sample value
+GLS_NOMBEN	string	30	string sample value
+GLS_NOMSEGBEN	string	20	string sample value
+GLS_PATBEN	string	20	string sample value
+GLS_MATBEN	string	20	string sample value
+MTO_PENSION	number		1.00
+MTO_PENSIONPESOS	number		1.00
+MTO_HABIMP	number		1.00
+MTO_DESIMP	number		1.00
+MTO_BASEIMP	number		1.00
+MTO_BASETRI	number		1.00
+MTO_SALUD	number		1.00
+MTO_IMPUESTO	number		1.00
+MTO_HABNOIMP	number		1.00
+MTO_DESNOIMP	number		1.00
+MTO_PENLIQ	number		1.00
+COD_TIPRECEPTOR	string	1	string sample value
+GLS_NOMREC	string	25	string sample value
+GLS_NOMSEGREC	string	25	string sample value
+GLS_PATREC	string	20	string sample value
+GLS_MATREC	string	20	string sample value
+COD_TIPOIDENREC	number		1.00
+NUM_IDENREC	string	16	string sample value
+COD_AFP	string	5	string sample value
+COD_VIAPAGO	string	5	string sample value
+PRC_FACTORAJU	number		1.00
+DES_AFP	string	50	string sample value
+DES_PENSION	string	50	string sample value
+COD_TIPREAJUSTE	string	5	string sample value
+MTO_VALREAJUSTETRI	number		1.00
+MTO_VALREAJUSTEMEN	number		1.00
+NUM_PERPAGO	string	6	string sample value
+COD_CUSSP	string	15	string sample value
+COD_SUCURSAL	string	5	string sample value
+COD_BANCO	string	2	string sample value
+DES_BANCO	string	50	string sample value
+COD_TIPCTA	string	2	string sample value
+COD_MONBCO	string	2	string sample value
+NUM_CTABCO	string	20	string sample value
+NUM_CUENTA_CCI	string	30	string sample value
+DES_VIAPAGO	string	50	string sample value
+TIPO_CUENTA	string	50	string sample value
+GLS_ELEMENTO	string	50	string sample value

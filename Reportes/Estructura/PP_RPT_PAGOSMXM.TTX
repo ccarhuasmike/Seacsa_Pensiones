@@ -1,0 +1,7 @@
+; Field definition file for table: ADORecordset
+TIPO	string	2	string sample value
+NUM_POLIZA	string	10	string sample value
+NUM_ORDEN	number		1.00
+MESACT	number		1.00
+MESANT	number		1.00
+DIF	number		1.00

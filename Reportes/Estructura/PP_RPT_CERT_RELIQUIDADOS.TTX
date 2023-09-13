@@ -1,0 +1,27 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+NUM_ENDOSO	number		1.00
+NUM_ORDEN	number		1.00
+GLS_NOMBEN	string	46	string sample value
+GLS_PATBEN	string	20	string sample value
+GLS_MATBEN	string	20	string sample value
+COD_PAR	string	5	string sample value
+COD_DERPEN	string	5	string sample value
+COD_ESTPENSION	string	5	string sample value
+COD_TIPOIDENBEN	number		1.00
+NUM_IDENBEN	string	16	string sample value
+FEC_INIPAGOPEN	string	8	string sample value
+PRC_PENSION	number		1.00
+COD_INDRELIQUIDAR	string	1	string sample value
+NUM_RELIQ	number		1.00
+MONEDA	string	5	string sample value
+COD_PENSIÓN	string	5	string sample value
+FECHA_RELIQ	string	10	string sample value
+PENSIÓN	string	40	string sample value
+RETENSIÓN	string	1	string sample value
+ESSALUD	string	40	string sample value
+PERIODO_DE_PAGO	string	17	string sample value
+MTO_PENSION	string	40	string sample value
+AFP	string	50	string sample value
+CUOTAS_RETENIDAS	string	40	string sample value
+DESC_MONEDA	string	50	string sample value

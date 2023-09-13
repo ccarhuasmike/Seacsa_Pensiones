@@ -1,0 +1,15 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+NUM_ORDEN	string	10	string sample value
+GLS_TIPOIDENCOR	string	10	string sample value
+NUM_IDENBEN	string	16	string sample value
+GLS_PATBEN	string	20	string sample value
+GLS_MATBEN	string	20	string sample value
+GLS_NOMBEN	string	25	string sample value
+GLS_NOMSEGBEN	string	20	string sample value
+FEC_INICER	string	8	string sample value
+FEC_TERCER	string	8	string sample value
+DIFERENCIA	string	8	string sample value
+DIRECCION	string	100	string sample value
+DISTRITO	string	50	string sample value
+NUMPAG	string	5	string sample value

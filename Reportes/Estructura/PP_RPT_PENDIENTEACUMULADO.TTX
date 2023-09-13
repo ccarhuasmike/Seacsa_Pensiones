@@ -1,0 +1,19 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+COD_MONEDA	string	5	string sample value
+COD_TIPPENSION	string	5	string sample value
+COD_TIPOIDENBEN	number		1.00
+NUM_IDENBEN	string	16	string sample value
+GLS_NOMBEN	string	25	string sample value
+NVL(B.GLS_NOMSEGBEN,'')	string	20	string sample value
+GLS_PATBEN	string	20	string sample value
+GLS_MATBEN	string	20	string sample value
+COD_AFP	string	5	string sample value
+COD_INSSALUD	string	5	string sample value
+MTO_LIQPAGAR	unknown		
+NUM_ORDEN	number		1.00
+ULTIMOPAGO	string	6	string sample value
+ABRV_PENSION	string	5	string sample value
+ABRV_AFP	string	5	string sample value
+ABRV_PARENTESCO	string	5	string sample value
+MONEDA	string	50	string sample value

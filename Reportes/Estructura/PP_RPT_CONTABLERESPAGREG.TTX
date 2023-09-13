@@ -1,0 +1,12 @@
+; Field definition file for table: ADORecordset
+NUM_ARCHIVO	number		1.00
+COD_TIPREG	string	5	string sample value
+COD_TIPMOV	string	5	string sample value
+COD_MONEDA	string	5	string sample value
+FEC_DESDE	string	8	string sample value
+FEC_HASTA	string	8	string sample value
+NUM_CASOS	number		1.00
+MTO_PAGO	number		1.00
+COD_USUARIOCREA	string	10	string sample value
+FEC_CREA	string	8	string sample value
+HOR_CREA	string	6	string sample value

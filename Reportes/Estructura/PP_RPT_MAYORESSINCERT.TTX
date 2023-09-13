@@ -1,0 +1,8 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+NUM_ORDEN	number		1.00
+NUM_IDENBEN	string	16	string sample value
+NOMBRE	string	88	string sample value
+FEC_INICER	datetime		Jan 5, 1994 1:23:45 PM
+FEC_TERCER	datetime		Jan 5, 1994 1:23:45 PM
+EDAD	string	2	string sample value

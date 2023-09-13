@@ -1,0 +1,10 @@
+; Field definition file for table: ADORecordset
+LOG_NNUMREG	number		1.00
+LOG_CCODERR	string	6	string sample value
+LOG_DFECREG	string	8	string sample value
+LOG_CUSUCRE	string	8	string sample value
+GLS_ERROR	string	100	string sample value
+LOG_SQUERY1	string	255	string sample value
+LOG_SQUERY2	string	255	string sample value
+LOG_SQUERY3	string	255	string sample value
+LOG_SQUERY4	string	255	string sample value

@@ -1,0 +1,16 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+NUM_PERPAGO	string	6	string sample value
+GLS_DIRECCION	string	50	string sample value
+GLS_NOMRECEPTOR	string	25	string sample value
+GLS_NOMSEGRECEPTOR	string	25	string sample value
+GLS_PATRECEPTOR	string	20	string sample value
+GLS_MATRECEPTOR	string	20	string sample value
+UBICACION	string	156	string sample value
+COD_TIPRECEPTOR	string	1	string sample value
+HIJO1	string	88	string sample value
+HIJO2	string	88	string sample value
+HIJO3	string	88	string sample value
+HIJO4	string	88	string sample value
+HIJO5	string	88	string sample value
+HIJO6	string	88	string sample value

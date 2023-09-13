@@ -1,0 +1,17 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+COD_AFP	string	5	string sample value
+GLS_NOMBEN	string	25	string sample value
+GLS_NOMSEGBEN	string	20	string sample value
+GLS_PATBEN	string	20	string sample value
+GLS_MATBEN	string	20	string sample value
+NUM_ORDEN	number		1.00
+COD_ESTPENSION	string	5	string sample value
+FEC_ENDOSO	datetime		Jan 5, 1994 1:23:45 PM
+FEC_EFECTO	datetime		Jan 5, 1994 1:23:45 PM
+COD_CAUENDOSO	string	5	string sample value
+NUM_ENDOSO	number		1.00
+FEC_FINEFECTO	datetime		Jan 5, 1994 1:23:45 PM
+DESC_ENDOSO	string	50	string sample value
+DESC_AFP	string	50	string sample value
+ESTADO	string	50	string sample value

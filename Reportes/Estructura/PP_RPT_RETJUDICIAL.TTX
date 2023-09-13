@@ -1,0 +1,45 @@
+; Field definition file for table: ADORecordset
+NUM_RETENCION	number		1.00
+NUM_POLIZA	string	10	string sample value
+NUM_ENDOSO	number		1.00
+NUM_ORDEN	number		1.00
+COD_TIPRET	string	5	string sample value
+FEC_INIRET	string	8	string sample value
+FEC_TERRET	string	8	string sample value
+FEC_RESDOC	string	8	string sample value
+COD_MODRET	string	5	string sample value
+MTO_RET	number		1.00
+GLS_NOMJUZGADO	string	50	string sample value
+NUM_IDENRECEPTOR	string	16	string sample value
+COD_TIPOIDENRECEPTOR	number		1.00
+GLS_NOMRECEPTOR	string	25	string sample value
+GLS_NOMSEGRECEPTOR	string	25	string sample value
+GLS_PATRECEPTOR	string	20	string sample value
+GLS_MATRECEPTOR	string	20	string sample value
+GLS_DIRRECEPTOR	string	50	string sample value
+COD_DIRECCION	number		1.00
+GLS_FONORECEPTOR	string	20	string sample value
+GLS_EMAILRECEPTOR	string	20	string sample value
+COD_VIAPAGO	string	5	string sample value
+COD_TIPCUENTA	string	2	string sample value
+COD_BANCO	string	5	string sample value
+NUM_CUENTA	string	15	string sample value
+COD_SUCURSAL	string	5	string sample value
+COD_MONEDARETMAX	string	5	string sample value
+MTO_RETMAX	number		1.00
+FEC_EFECTO	string	8	string sample value
+COD_USUARIOCREA	string	10	string sample value
+FEC_CREA	string	8	string sample value
+HOR_CREA	string	6	string sample value
+COD_USUARIOMODI	string	10	string sample value
+FEC_MODI	string	8	string sample value
+HOR_MODI	string	6	string sample value
+COD_TP	string	50	string sample value
+COD_MOD	string	50	string sample value
+COD_TIPREC	string	50	string sample value
+GLS_NOMBEN	string	25	string sample value
+GLS_NOMSEGBEN	string	20	string sample value
+GLS_PATBEN	string	20	string sample value
+GLS_MATBEN	string	20	string sample value
+NUM_IDENBEN	string	16	string sample value
+COD_TIPPEN	string	50	string sample value

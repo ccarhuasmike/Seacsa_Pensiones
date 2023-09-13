@@ -1,0 +1,18 @@
+; Field definition file for table: ADORecordset
+PÓLIZA	string	10	string sample value
+ENDOSO	number		1.00
+NUM_ORDEN	number		1.00
+NOMBRE	string	88	string sample value
+TIPO_DOC	number		1.00
+NUMERO_DOC	string	16	string sample value
+FECHA_INI_PAGO	string	8	string sample value
+MONEDA	string	5	string sample value
+COD_PENSIÓN	string	5	string sample value
+PENSIÓN	string	40	string sample value
+ESSALUD	string	40	string sample value
+PERIODO_DE_PAGO	string	17	string sample value
+CUOTAS	unknown		
+MTO_PENSION	number		1.00
+AFP	string	50	string sample value
+DESC_MONEDA	string	50	string sample value
+CERTIFICADO	string	2	string sample value

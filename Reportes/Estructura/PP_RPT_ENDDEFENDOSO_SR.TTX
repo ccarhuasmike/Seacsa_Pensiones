@@ -1,0 +1,20 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+NUM_ENDOSO	number		1.00
+NUM_ORDEN	number		1.00
+BENEF	string	101	string sample value
+PARENTESCO	string	200	string sample value
+VIAPAGO_OLD	string	200	string sample value
+BANCO_OLD	string	200	string sample value
+TIPOCTA_OLD	string	200	string sample value
+NUMCTA_OLD	string	25	string sample value
+SUC_OLD	string	50	string sample value
+MONBCO_OLD	string	2	string sample value
+VIAPAGO_NEW	string	200	string sample value
+BANCO_NEW	string	200	string sample value
+TIPOCTA_NEW	string	200	string sample value
+NUMCTA_NEW	string	25	string sample value
+SUC_NEW	string	50	string sample value
+MONBCO_NEW	string	2	string sample value
+NUMCTACCI_OLD	string	30	string sample value
+NUMCTACCI_NEW	string	30	string sample value

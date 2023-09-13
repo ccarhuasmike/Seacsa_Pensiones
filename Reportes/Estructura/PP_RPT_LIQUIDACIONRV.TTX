@@ -1,0 +1,54 @@
+; Field definition file for table: ADORecordset
+COD_USUARIO	string	10	string sample value
+NUM_PERPAGO	string	6	string sample value
+NUM_POLIZA	string	10	string sample value
+NUM_ENDOSO	number		1.00
+NUM_ORDEN	number		1.00
+NUM_ITEM	number		1.00
+COD_CONHABER	string	50	string sample value
+MTO_HABER	number		1.00
+COD_CONDESCTO	string	50	string sample value
+MTO_DESCUENTO	number		1.00
+NUM_IDENRECEPTOR	string	16	string sample value
+COD_TIPOIDENRECEPTOR	number		1.00
+COD_TIPRECEPTOR	string	1	string sample value
+GLS_DIRECCION	string	120	string sample value
+FEC_PAGO	string	20	string sample value
+GLS_NOMRECEPTOR	string	65	string sample value
+MTO_LIQPAGAR	number		1.00
+FEC_TERPODNOT	string	20	string sample value
+FEC_PAGOPROXREG	string	20	string sample value
+GLS_TIPPENSION	string	100	string sample value
+GLS_VIAPAGO	string	50	string sample value
+GLS_INSSALUD	string	50	string sample value
+MTO_MONEDA	number		1.00
+COD_DIRECCION	number		1.00
+MTO_PENSION	number		1.00
+NUM_CARGAS	number		1.00
+MTO_LIQHABER	number		1.00
+MTO_LIQDESCUENTO	number		1.00
+NUM_IDENBEN	string	16	string sample value
+COD_TIPOIDENBEN	number		1.00
+GLS_NOMBEN	string	65	string sample value
+GLS_DIRECCION2	string	160	string sample value
+GLS_MENSAJE	string	255	string sample value
+GLS_MONTOPENSION	string	200	string sample value
+COD_MONEDA	string	5	string sample value
+GLS_AFP	string	50	string sample value
+GLS_VEJEZ	string	100	string sample value
+COD_TIPOIDENTIT	number		1.00
+NUM_IDENTIT	string	16	string sample value
+GLS_NOMTIT	string	150	string sample value
+GLS_COMUNA	string	50	string sample value
+GLS_PROVINCIA	string	50	string sample value
+GLS_REGION	string	50	string sample value
+GLS_TIPOIDEN	string	50	string sample value
+GLS_TIPOIDENCOR	string	10	string sample value
+NUM_IDENBEN	string	16	string sample value
+GLS_NOMBEN1	string	50	string sample value
+GLS_NOMSEGBEN	string	50	string sample value
+GLS_PATBEN	string	50	string sample value
+GLS_MATBEN	string	50	string sample value
+GLS_DIRBEN	string	120	string sample value
+TIPOREC	string	50	string sample value
+TIPOTIT	string	50	string sample value

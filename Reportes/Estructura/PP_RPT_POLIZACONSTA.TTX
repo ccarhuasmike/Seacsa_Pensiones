@@ -1,0 +1,54 @@
+; Field definition file for table: ADORecordset
+NUM_POLIZA	string	10	string sample value
+NUM_ENDOSO	number		1.00
+GLS_DIRECCION	string	50	string sample value
+GLS_FONO	string	15	string sample value
+FEC_VIGENCIA	string	8	string sample value
+FEC_DEV	string	8	string sample value
+MTO_APOADI	number		1.00
+MTO_PRIUNI	number		1.00
+MTO_CTAIND	number		1.00
+MTO_BONO	number		1.00
+NUM_MESDIF	number		1.00
+NUM_MESGAR	number		1.00
+COD_COBERCON	string	5	string sample value
+COD_DERCRE	string	5	string sample value
+COD_DERGRA	string	5	string sample value
+MTO_PENSION	number		1.00
+FEC_FINPERDIF	string	8	string sample value
+FEC_FINPERGAR	string	8	string sample value
+GLS_NACIONALIDAD	string	50	string sample value
+FEC_INIPENCIA	string	8	string sample value
+COD_MONEDA	string	5	string sample value
+POLIZA_BEN	string	10	string sample value
+ENDOSO_BEN	number		1.00
+COD_SITINV	string	5	string sample value
+COD_SEXO	string	5	string sample value
+NUM_IDENBEN	string	16	string sample value
+GLS_NOMBEN	string	20	string sample value
+GLS_NOMSEGBEN	string	20	string sample value
+GLS_PATBEN	string	20	string sample value
+GLS_MATBEN	string	20	string sample value
+FEC_NACBEN	string	8	string sample value
+MTO_PENSION_2	number		1.00
+FEC_TRASPASO	string	8	string sample value
+COD_LIQUIDACION	string	10	string sample value
+GLS_TIPOIDENCOR	string	10	string sample value
+GLS_COMUNA	string	50	string sample value
+GLS_PROVINCIA	string	50	string sample value
+GLS_REGION	string	50	string sample value
+TIPO_PENSION	string	50	string sample value
+AFP	string	50	string sample value
+INS_ESSALUD	string	50	string sample value
+SIMB_MONEDA	string	5	string sample value
+MONEDA	string	50	string sample value
+COD_SCOMP	string	10	string sample value
+DESC_MONEDA_AJUSTE	string	50	string sample value
+COD_TIPREAJUSTE	string	5	string sample value
+GLS_ELEMENTO	string	50	string sample value
+VEJEZ	string	50	string sample value
+FEC_CREA	string	8	string sample value
+NUM_ORDEN	number		1.00
+MTO_VALMONEDA	number		1.00
+FEC_INIPAGOPEN	string	8	string sample value
+COD_CUSPP	string	12	string sample value
