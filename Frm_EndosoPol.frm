@@ -5,16 +5,16 @@ Object = "{00025600-0000-0000-C000-000000000046}#5.2#0"; "Crystl32.OCX"
 Begin VB.Form Frm_EndosoPol 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "Mantenedor de Endosos Simples y Actuariales."
-   ClientHeight    =   10575
+   ClientHeight    =   13155
    ClientLeft      =   2100
    ClientTop       =   1395
-   ClientWidth     =   11550
+   ClientWidth     =   11925
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MDIChild        =   -1  'True
    MinButton       =   0   'False
-   ScaleHeight     =   10575
-   ScaleWidth      =   11550
+   ScaleHeight     =   13155
+   ScaleWidth      =   11925
    Begin VB.Frame Fra_Poliza 
       BeginProperty Font 
          Name            =   "MS Sans Serif"
@@ -174,13 +174,13 @@ Begin VB.Form Frm_EndosoPol
       End
    End
    Begin TabDlg.SSTab SSTab_EndosoPoliza 
-      Height          =   9495
+      Height          =   12015
       Left            =   105
       TabIndex        =   6
       Top             =   1035
-      Width           =   9975
-      _ExtentX        =   17595
-      _ExtentY        =   16748
+      Width           =   10335
+      _ExtentX        =   18230
+      _ExtentY        =   21193
       _Version        =   393216
       Tabs            =   2
       Tab             =   1
@@ -191,7 +191,6 @@ Begin VB.Form Frm_EndosoPol
       TabPicture(0)   =   "Frm_EndosoPol.frx":0306
       Tab(0).ControlEnabled=   0   'False
       Tab(0).Control(0)=   "SSTab_PolizaOriginal"
-      Tab(0).Control(0).Enabled=   0   'False
       Tab(0).ControlCount=   1
       TabCaption(1)   =   "Modificación de Antecedentes de Póliza a Endosar"
       TabPicture(1)   =   "Frm_EndosoPol.frx":0322
@@ -208,7 +207,7 @@ Begin VB.Form Frm_EndosoPol
          Left            =   6705
          TabIndex        =   294
          Top             =   600
-         Width           =   2895
+         Width           =   3255
          Begin VB.TextBox txt_EndMtoPensionCalcGar 
             Height          =   285
             Left            =   1320
@@ -216,7 +215,7 @@ Begin VB.Form Frm_EndosoPol
             TabIndex        =   298
             Top             =   1200
             Visible         =   0   'False
-            Width           =   855
+            Width           =   1095
          End
          Begin VB.TextBox txt_EndMtoPensionOrigGar 
             Height          =   285
@@ -225,7 +224,7 @@ Begin VB.Form Frm_EndosoPol
             TabIndex        =   297
             Top             =   560
             Visible         =   0   'False
-            Width           =   855
+            Width           =   1095
          End
          Begin VB.TextBox txt_EndMtoPensionOrig 
             Height          =   285
@@ -234,7 +233,7 @@ Begin VB.Form Frm_EndosoPol
             TabIndex        =   296
             Top             =   240
             Visible         =   0   'False
-            Width           =   855
+            Width           =   1095
          End
          Begin VB.TextBox txt_EndMtoPensionCalc 
             Height          =   285
@@ -243,7 +242,7 @@ Begin VB.Form Frm_EndosoPol
             TabIndex        =   295
             Top             =   915
             Visible         =   0   'False
-            Width           =   855
+            Width           =   1095
          End
          Begin VB.Line Line4 
             BorderColor     =   &H80000010&
@@ -314,7 +313,7 @@ Begin VB.Form Frm_EndosoPol
             Caption         =   "(TM)"
             Height          =   285
             Index           =   2
-            Left            =   2280
+            Left            =   2520
             TabIndex        =   302
             Top             =   360
             Width           =   495
@@ -323,7 +322,7 @@ Begin VB.Form Frm_EndosoPol
             Caption         =   "(TM)"
             Height          =   285
             Index           =   3
-            Left            =   2280
+            Left            =   2520
             TabIndex        =   301
             Top             =   1080
             Width           =   375
@@ -621,9 +620,7 @@ Begin VB.Form Frm_EndosoPol
          TabPicture(1)   =   "Frm_EndosoPol.frx":0362
          Tab(1).ControlEnabled=   0   'False
          Tab(1).Control(0)=   "Msf_BOGrilla"
-         Tab(1).Control(0).Enabled=   0   'False
          Tab(1).Control(1)=   "Fra_Personales"
-         Tab(1).Control(1).Enabled=   0   'False
          Tab(1).ControlCount=   2
          Begin VB.Frame Fra_Personales 
             Caption         =   "Antecedentes Personales"
@@ -1563,13 +1560,13 @@ Begin VB.Form Frm_EndosoPol
          End
       End
       Begin TabDlg.SSTab SSTab_PolizaModificada 
-         Height          =   7305
+         Height          =   9705
          Left            =   240
          TabIndex        =   15
          Top             =   2160
-         Width           =   9375
-         _ExtentX        =   16536
-         _ExtentY        =   12885
+         Width           =   9735
+         _ExtentX        =   17171
+         _ExtentY        =   17119
          _Version        =   393216
          Tabs            =   2
          Tab             =   1
@@ -1580,7 +1577,6 @@ Begin VB.Form Frm_EndosoPol
          TabPicture(0)   =   "Frm_EndosoPol.frx":042F
          Tab(0).ControlEnabled=   0   'False
          Tab(0).Control(0)=   "Fra_PM"
-         Tab(0).Control(0).Enabled=   0   'False
          Tab(0).ControlCount=   1
          TabCaption(1)   =   "Beneficiarios a Endosar"
          TabPicture(1)   =   "Frm_EndosoPol.frx":044B
@@ -1613,7 +1609,7 @@ Begin VB.Form Frm_EndosoPol
             Height          =   2535
             Left            =   120
             TabIndex        =   131
-            Top             =   4680
+            Top             =   6960
             Width           =   9135
             Begin VB.CommandButton cmdCausaFac 
                Caption         =   "Causa Fallecimiento"
@@ -1824,8 +1820,8 @@ Begin VB.Form Frm_EndosoPol
             Begin VB.Line Line3 
                X1              =   4560
                X2              =   4560
-               Y1              =   240
-               Y2              =   2400
+               Y1              =   480
+               Y2              =   2640
             End
             Begin VB.Label lbl_BMPrcGar 
                BackColor       =   &H80000018&
@@ -2149,7 +2145,7 @@ Begin VB.Form Frm_EndosoPol
          End
          Begin VB.CommandButton Cmd_BMCalcular 
             Height          =   450
-            Left            =   8680
+            Left            =   9165
             Picture         =   "Frm_EndosoPol.frx":13A8
             Style           =   1  'Graphical
             TabIndex        =   265
@@ -2159,7 +2155,7 @@ Begin VB.Form Frm_EndosoPol
          End
          Begin VB.CommandButton Cmd_BMRestar 
             Height          =   450
-            Left            =   8680
+            Left            =   9165
             Picture         =   "Frm_EndosoPol.frx":196A
             Style           =   1  'Graphical
             TabIndex        =   264
@@ -2169,7 +2165,7 @@ Begin VB.Form Frm_EndosoPol
          End
          Begin VB.CommandButton Cmd_BMSumar 
             Height          =   450
-            Left            =   8680
+            Left            =   9165
             Picture         =   "Frm_EndosoPol.frx":1AF4
             Style           =   1  'Graphical
             TabIndex        =   263
@@ -2712,8 +2708,8 @@ Begin VB.Form Frm_EndosoPol
             Left            =   120
             TabIndex        =   25
             Top             =   360
-            Width           =   9135
-            _ExtentX        =   16113
+            Width           =   9495
+            _ExtentX        =   16748
             _ExtentY        =   2884
             _Version        =   393216
             Rows            =   1
@@ -2745,11 +2741,11 @@ Begin VB.Form Frm_EndosoPol
                Strikethrough   =   0   'False
             EndProperty
             ForeColor       =   &H00800000&
-            Height          =   2535
-            Left            =   120
+            Height          =   4575
+            Left            =   0
             TabIndex        =   229
-            Top             =   2040
-            Width           =   8535
+            Top             =   2280
+            Width           =   9135
             Begin VB.Frame FrameCtaBan 
                Caption         =   "Forma de Pago de Pensión"
                BeginProperty Font 
@@ -2762,27 +2758,70 @@ Begin VB.Form Frm_EndosoPol
                   Strikethrough   =   0   'False
                EndProperty
                ForeColor       =   &H00800000&
-               Height          =   2535
+               Height          =   4335
                Left            =   4200
                TabIndex        =   282
-               Top             =   0
+               Top             =   120
                Visible         =   0   'False
-               Width           =   4455
+               Width           =   4980
+               Begin VB.ComboBox Cmb_TipDoc 
+                  BackColor       =   &H00E0FFFF&
+                  Enabled         =   0   'False
+                  Height          =   315
+                  Left            =   1560
+                  TabIndex        =   324
+                  Text            =   "Cmb_TipDoc"
+                  Top             =   2880
+                  Width           =   3255
+               End
+               Begin VB.ComboBox Cmb_ModTipCta 
+                  BackColor       =   &H00E0FFFF&
+                  Height          =   315
+                  Left            =   1560
+                  Style           =   2  'Dropdown List
+                  TabIndex        =   323
+                  Top             =   2520
+                  Width           =   3255
+               End
+               Begin VB.TextBox Txt_NroDocSecundario 
+                  Enabled         =   0   'False
+                  Height          =   285
+                  Left            =   1560
+                  TabIndex        =   322
+                  Top             =   3240
+                  Width           =   3255
+               End
+               Begin VB.TextBox Txt_NombreSecundario 
+                  Enabled         =   0   'False
+                  Height          =   285
+                  Left            =   1560
+                  TabIndex        =   321
+                  Top             =   3600
+                  Width           =   3255
+               End
+               Begin VB.TextBox Txt_ApellidosSecundario 
+                  Enabled         =   0   'False
+                  Height          =   285
+                  Left            =   1560
+                  TabIndex        =   320
+                  Top             =   3960
+                  Width           =   3255
+               End
                Begin VB.ComboBox Cmb_Sucursal 
                   BackColor       =   &H00E0FFFF&
                   Height          =   315
                   ItemData        =   "Frm_EndosoPol.frx":1D3D
-                  Left            =   1080
+                  Left            =   1560
                   List            =   "Frm_EndosoPol.frx":1D3F
                   Style           =   2  'Dropdown List
                   TabIndex        =   313
-                  Top             =   560
+                  Top             =   600
                   Width           =   3225
                End
                Begin VB.ComboBox Cmb_ViaPago 
                   BackColor       =   &H00E0FFFF&
                   Height          =   315
-                  Left            =   1080
+                  Left            =   1560
                   Style           =   2  'Dropdown List
                   TabIndex        =   312
                   Top             =   240
@@ -2790,48 +2829,88 @@ Begin VB.Form Frm_EndosoPol
                End
                Begin VB.TextBox txt_CCI 
                   Height          =   285
-                  Left            =   1080
+                  Left            =   1560
                   MaxLength       =   25
                   TabIndex        =   310
-                  Top             =   2130
+                  Top             =   2180
                   Width           =   3225
                End
                Begin VB.ComboBox cmbBancoCtaBen 
                   BackColor       =   &H00E0FFFF&
                   Height          =   315
-                  Left            =   1080
+                  Left            =   1560
                   Style           =   2  'Dropdown List
                   TabIndex        =   286
-                  Top             =   1520
+                  Top             =   1540
                   Width           =   3225
                End
                Begin VB.ComboBox cmbMonctaBen 
                   BackColor       =   &H00E0FFFF&
                   Height          =   315
                   ItemData        =   "Frm_EndosoPol.frx":1D41
-                  Left            =   1080
+                  Left            =   1560
                   List            =   "Frm_EndosoPol.frx":1D43
                   Style           =   2  'Dropdown List
                   TabIndex        =   285
-                  Top             =   1200
+                  Top             =   1220
                   Width           =   3225
                End
                Begin VB.ComboBox cmbTipoCtaBen 
                   BackColor       =   &H00E0FFFF&
                   Height          =   315
-                  Left            =   1080
+                  Left            =   1560
                   Style           =   2  'Dropdown List
                   TabIndex        =   284
-                  Top             =   890
+                  Top             =   910
                   Width           =   3225
                End
                Begin VB.TextBox txtNumctaBen 
                   Height          =   285
-                  Left            =   1080
+                  Left            =   1560
                   MaxLength       =   25
                   TabIndex        =   283
-                  Top             =   1820
+                  Top             =   1880
                   Width           =   3225
+               End
+               Begin VB.Label Label17 
+                  Caption         =   "Mod Tip Cuenta"
+                  Height          =   255
+                  Left            =   120
+                  TabIndex        =   329
+                  Top             =   2520
+                  Width           =   1335
+               End
+               Begin VB.Label lblTipDoc 
+                  Caption         =   "Tip.Documento"
+                  Height          =   255
+                  Left            =   120
+                  TabIndex        =   328
+                  Top             =   2880
+                  Width           =   1215
+               End
+               Begin VB.Label lbl_NroDocSecundario 
+                  Caption         =   "Nro Doc."
+                  Height          =   255
+                  Left            =   120
+                  TabIndex        =   327
+                  Top             =   3240
+                  Width           =   1095
+               End
+               Begin VB.Label lbl_NombreSecundario 
+                  Caption         =   "Nombres"
+                  Height          =   255
+                  Left            =   120
+                  TabIndex        =   326
+                  Top             =   3600
+                  Width           =   855
+               End
+               Begin VB.Label lbl_ApellidosSecundario 
+                  Caption         =   "Apellidos"
+                  Height          =   255
+                  Left            =   120
+                  TabIndex        =   325
+                  Top             =   3960
+                  Width           =   975
                End
                Begin VB.Label Lbl_Nombre 
                   Caption         =   "Vía Pago"
@@ -2961,9 +3040,9 @@ Begin VB.Form Frm_EndosoPol
             End
             Begin VB.TextBox txtcodDirBen 
                Height          =   285
-               Left            =   3960
+               Left            =   4200
                TabIndex        =   259
-               Top             =   2760
+               Top             =   4560
                Visible         =   0   'False
                Width           =   975
             End
@@ -2996,7 +3075,7 @@ Begin VB.Form Frm_EndosoPol
             Begin VB.TextBox txtFecdevBen 
                BackColor       =   &H80000004&
                Height          =   285
-               Left            =   8880
+               Left            =   10320
                TabIndex        =   253
                Top             =   1920
                Width           =   1215
@@ -3004,24 +3083,24 @@ Begin VB.Form Frm_EndosoPol
             Begin VB.ComboBox cmbSexoBen 
                BackColor       =   &H00E0FFFF&
                Height          =   315
-               Left            =   8760
+               Left            =   9600
                TabIndex        =   251
-               Top             =   2880
+               Top             =   2760
                Width           =   1575
             End
             Begin VB.TextBox txtFecnacBen 
                Height          =   285
                Left            =   4440
                TabIndex        =   249
-               Top             =   3240
+               Top             =   4680
                Width           =   1215
             End
             Begin VB.ComboBox cmbTipoPreBen 
                BackColor       =   &H00E0FFFF&
                Height          =   315
-               Left            =   8880
+               Left            =   9600
                TabIndex        =   247
-               Top             =   3480
+               Top             =   3360
                Width           =   3015
             End
             Begin VB.ComboBox cmbAfpBen 
@@ -3029,14 +3108,14 @@ Begin VB.Form Frm_EndosoPol
                Height          =   315
                Left            =   5760
                TabIndex        =   245
-               Top             =   2760
+               Top             =   4560
                Width           =   2655
             End
             Begin VB.TextBox txtCusspBen 
                Height          =   285
                Left            =   6360
                TabIndex        =   243
-               Top             =   3240
+               Top             =   4680
                Width           =   1335
             End
             Begin VB.TextBox txtTelBen 
@@ -3130,7 +3209,7 @@ Begin VB.Form Frm_EndosoPol
                Height          =   285
                Left            =   120
                TabIndex        =   257
-               Top             =   3240
+               Top             =   4680
                Visible         =   0   'False
                Width           =   2895
             End
@@ -3154,13 +3233,13 @@ Begin VB.Form Frm_EndosoPol
             Begin VB.Line Line2 
                X1              =   120
                X2              =   8400
-               Y1              =   2640
-               Y2              =   2640
+               Y1              =   4440
+               Y2              =   4440
             End
             Begin VB.Label Label13 
                Caption         =   "Fech.Dev."
                Height          =   255
-               Left            =   8760
+               Left            =   9600
                TabIndex        =   252
                Top             =   1920
                Width           =   735
@@ -3168,9 +3247,9 @@ Begin VB.Form Frm_EndosoPol
             Begin VB.Label Label12 
                Caption         =   "Sexo"
                Height          =   255
-               Left            =   8880
+               Left            =   9600
                TabIndex        =   250
-               Top             =   2400
+               Top             =   2280
                Width           =   615
             End
             Begin VB.Label Label11 
@@ -3178,15 +3257,15 @@ Begin VB.Form Frm_EndosoPol
                Height          =   255
                Left            =   3600
                TabIndex        =   248
-               Top             =   3240
+               Top             =   4680
                Width           =   735
             End
             Begin VB.Label Label10 
                Caption         =   "Tipo de Pens."
                Height          =   255
-               Left            =   9000
+               Left            =   9480
                TabIndex        =   246
-               Top             =   3480
+               Top             =   3360
                Width           =   1095
             End
             Begin VB.Label Label9 
@@ -3194,7 +3273,7 @@ Begin VB.Form Frm_EndosoPol
                Height          =   255
                Left            =   5400
                TabIndex        =   244
-               Top             =   2760
+               Top             =   4560
                Width           =   495
             End
             Begin VB.Label Label7 
@@ -3202,7 +3281,7 @@ Begin VB.Form Frm_EndosoPol
                Height          =   255
                Left            =   5640
                TabIndex        =   242
-               Top             =   3240
+               Top             =   4680
                Width           =   855
             End
             Begin VB.Label Label6 
@@ -3258,7 +3337,7 @@ Begin VB.Form Frm_EndosoPol
    End
    Begin VB.Frame Fra_Operacion 
       Height          =   9375
-      Left            =   10200
+      Left            =   10560
       TabIndex        =   60
       Top             =   0
       Width           =   1215
@@ -3550,6 +3629,13 @@ Dim vlBenefNuevo  As Boolean
 Dim vlCodTipcta, vlcodmonbco, vlnumctabco, vlnumctacci, vlSucursal, vlViaPago  As String 'RRR 24/01/2014
 Dim vl_ConTratDatos_Ben As String
 Dim vl_ConUsoDatosCom_Ben As String
+
+Dim vl_COD_MODTIPOCUENTA_MANC As String
+Dim vl_COD_TIPODOC_MANC As String
+Dim vl_NUM_DOC_MANC As String
+Dim vl_NOMBRE_MANC As String
+Dim vl_APELLIDO_MANC As String
+
 
 Dim vlMtoPensionB As Double      'RRR 24/01/2014
 Dim vlMtoPensionGarB As Double   'RRR 24/01/2014
@@ -4060,7 +4146,7 @@ On Error GoTo Err_flInicializaGrillaBenef
     
     iGrilla.Clear
     'mvg 20170904
-    iGrilla.Cols = 49
+    iGrilla.Cols = 54
     iGrilla.rows = 1
     iGrilla.RowHeight(0) = 250
     iGrilla.row = 0
@@ -4271,6 +4357,26 @@ On Error GoTo Err_flInicializaGrillaBenef
     iGrilla.Text = "Modificado"
     iGrilla.ColWidth(48) = 1000
     
+    
+    iGrilla.Col = 49
+    iGrilla.Text = "COD_MODTIPOCUENTA_MANC"
+    iGrilla.ColWidth(49) = 1000
+    
+    iGrilla.Col = 50
+    iGrilla.Text = "COD_TIPODOC_MANC"
+    iGrilla.ColWidth(50) = 1000
+    
+    iGrilla.Col = 51
+    iGrilla.Text = "NUM_DOC_MANC"
+    iGrilla.ColWidth(51) = 1000
+    
+    iGrilla.Col = 52
+    iGrilla.Text = "NOMBRE_MANC"
+    iGrilla.ColWidth(52) = 1000
+    
+    iGrilla.Col = 53
+    iGrilla.Text = "APELLIDO_MANC"
+    iGrilla.ColWidth(53) = 1000
    
    'Fin GCP-Fractal 25032019
    
@@ -4995,7 +5101,9 @@ Function flIngresarBenef()
     & (vlcodmonbco) & vbTab & (vlnumctabco) & vbTab _
     & (vlBolelec) & vbTab & (vlnumctacci) & vbTab _
     & (vlViaPago) & vbTab & (vlSucursal) & vbTab _
-    & (vl_ConTratDatos_Ben) & vbTab & (vl_ConUsoDatosCom_Ben) & vbTab & " "
+    & (vl_ConTratDatos_Ben) & vbTab & (vl_ConUsoDatosCom_Ben) & vbTab _
+    & (vl_COD_MODTIPOCUENTA_MANC) & vbTab & (vl_COD_TIPODOC_MANC) & vbTab _
+    & (vl_NUM_DOC_MANC) & vbTab & (vl_NOMBRE_MANC) & vbTab & (vl_APELLIDO_MANC) & vbTab & " "
     
 End Function
 
@@ -5099,7 +5207,22 @@ Function flModificarBenef()
     'Flag de Modificacion
      Msf_BMGrilla.Col = 48
      Msf_BMGrilla.Text = "1"
+       
+
+    Msf_BMGrilla.Col = 49
+    Msf_BMGrilla.Text = vl_COD_MODTIPOCUENTA_MANC
     
+    Msf_BMGrilla.Col = 50
+    Msf_BMGrilla.Text = vl_COD_TIPODOC_MANC
+    
+    Msf_BMGrilla.Col = 51
+    Msf_BMGrilla.Text = vl_NUM_DOC_MANC
+    
+    Msf_BMGrilla.Col = 52
+    Msf_BMGrilla.Text = vl_NOMBRE_MANC
+    
+    Msf_BMGrilla.Col = 53
+    Msf_BMGrilla.Text = vl_APELLIDO_MANC
         
     'Fin GCP-FRACTAL 25032019
  
@@ -5285,6 +5408,13 @@ Function flObtenerDatosBenef()
     vlnumctabco = Trim(txtNumctaBen)
     vlSucursal = Trim(Mid(Cmb_Sucursal, 1, (InStr(1, Cmb_Sucursal, "-") - 1)))
     vlViaPago = Trim(Mid(Cmb_ViaPago, 1, (InStr(1, Cmb_ViaPago, "-") - 1)))
+
+
+    vl_COD_MODTIPOCUENTA_MANC = Trim(Mid(Cmb_ModTipCta, 1, (InStr(1, Cmb_ModTipCta, "-") - 1)))
+    vl_COD_TIPODOC_MANC = Trim(Mid(Cmb_TipDoc, 1, (InStr(1, Cmb_TipDoc, "-") - 1)))
+    vl_NUM_DOC_MANC = Trim(Txt_NroDocSecundario)
+    vl_NOMBRE_MANC = Trim(Txt_NombreSecundario)
+    vl_APELLIDO_MANC = Trim(Txt_ApellidosSecundario)
     
     'INICIO GCP-FRACTAL 15042019
     vlnumctacci = Trim(txt_CCI)
@@ -5981,6 +6111,22 @@ Function flFormatearDatosBeneficiario(iFila As Integer)
   
      Msf_BMGrilla.Col = 46
      vl_ConUsoDatosCom_Ben = (Msf_BMGrilla.Text)
+     
+     
+     Msf_BMGrilla.Col = 49
+     vl_COD_MODTIPOCUENTA_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 50
+     vl_COD_TIPODOC_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 51
+     vl_NUM_DOC_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 52
+     vl_NOMBRE_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 53
+     vl_APELLIDO_MANC = (Msf_BMGrilla.Text)
     
         
     'Fin GCP - Fractal 25032019
@@ -6103,6 +6249,13 @@ Function flInsertarBeneficiario()
     If (vlFecMatrimonio <> "") Then vgSql = vgSql & "fec_matrimonio,"
     vgSql = vgSql & "mto_pension,mto_pensiongar,prc_pension "
     vgSql = vgSql & ",prc_pensionleg,prc_pensiongar, cod_direccion, gls_dirben, gls_fonoben, gls_correoben, gls_telben2, cod_banco, cod_tipcta, cod_monbco, num_ctabco "
+    If Mid(Cmb_EndCauEnd, 1, 2) = "28" And Mid(Cmb_EndTipoEnd, 1, 1) = "O" Then
+        vgSql = vgSql & ",COD_MODTIPOCUENTA_MANC"
+        vgSql = vgSql & ",COD_TIPODOC_MANC"
+        vgSql = vgSql & ",NUM_DOC_MANC"
+        vgSql = vgSql & ",NOMBRE_MANC"
+        vgSql = vgSql & ",APELLIDO_MANC"
+    End If
     'mvg 20170904
     vgSql = vgSql & " ,ind_bolelec, NUM_CUENTA_CCI"
     vgSql = vgSql & " ) VALUES ( "
@@ -6148,14 +6301,17 @@ Function flInsertarBeneficiario()
     vgSql = vgSql & ",'" & vlCodTipcta & "' "
     vgSql = vgSql & ",'" & vlcodmonbco & "' "
     vgSql = vgSql & ",'" & vlnumctabco & "' "
-    
+    If Mid(Cmb_EndCauEnd, 1, 2) = "28" And Mid(Cmb_EndTipoEnd, 1, 1) = "O" Then
+        vgSql = vgSql & ",'" & vl_COD_MODTIPOCUENTA_MANC & "' "
+        vgSql = vgSql & ",'" & vl_COD_TIPODOC_MANC & "' "
+        vgSql = vgSql & ",'" & vl_NUM_DOC_MANC & "' "
+        vgSql = vgSql & ",'" & vl_NOMBRE_MANC & "' "
+        vgSql = vgSql & ",'" & vl_APELLIDO_MANC & "' "
+    End If
     'mvg 20170904
     vgSql = vgSql & ",'" & vlBolelec & "' "
-    
     'GCP-Fractal 25032019
     vgSql = vgSql & ",'" & vlnumctacci & "' "
-    
-    
     ''''''''
     vgSql = vgSql & ")"
     vgConectarBD.Execute vgSql
@@ -6380,6 +6536,8 @@ Function flInsertarEndoso()
     'CMV-20051024 F
     'CMV-20051025 I
     vgSql = vgSql & "cod_estado,"
+    
+    
     'CMV-20051025 F
     vgSql = vgSql & "cod_usuariocrea,fec_crea,hor_crea "
     vgSql = vgSql & ", cod_tipreajuste, mto_valreajustetri, mto_valreajustemen" 'hqr 13/01/2011
@@ -6407,6 +6565,7 @@ Function flInsertarEndoso()
     'CMV-20051025 I
     vgSql = vgSql & "'" & Trim(vlCodEstadoEndoso) & "',"
     'CMV-20051025 F
+
     vgSql = vgSql & "'" & vlGlsUsuarioCrea & "', "
     vgSql = vgSql & "'" & vlFecCrea & "', "
     vgSql = vgSql & "'" & vlHorCrea & "', "
@@ -6427,7 +6586,7 @@ Err_flInsertarEndoso:
 End Function
 Private Sub CreaCertificado()
 Dim fechater As Date
-Dim rs As ADODB.Recordset
+Dim RS As ADODB.Recordset
 Dim rs2 As ADODB.Recordset
 Dim rsRepacto As ADODB.Recordset
 Dim rsRepacto2 As ADODB.Recordset
@@ -6458,13 +6617,13 @@ On Error GoTo mierror
         vlNumEndoso2 = (vgRegistro!num_endoso)
     End If
     
-    Set rs = New ADODB.Recordset
+    Set RS = New ADODB.Recordset
     
     'Consulta la edad en meses de los beneficiarios con estado de pension diferente de "10" y "20"
-    rs.Open "select DISTINCT num_orden, cod_par, trunc(months_between(sysdate, to_date(fec_nacben,'yyyymmdd'))/12) * 12 edad from pp_tmae_ben where NUM_POLIZA='" & Trim(Txt_PenPoliza.Text) & "' and num_orden> 1 and num_orden=" & Lbl_BMNumOrd.Caption, vgConexionBD, adOpenStatic, adLockReadOnly
+    RS.Open "select DISTINCT num_orden, cod_par, trunc(months_between(sysdate, to_date(fec_nacben,'yyyymmdd'))/12) * 12 edad from pp_tmae_ben where NUM_POLIZA='" & Trim(Txt_PenPoliza.Text) & "' and num_orden> 1 and num_orden=" & Lbl_BMNumOrd.Caption, vgConexionBD, adOpenStatic, adLockReadOnly
     
     'vlCodCauEndoso = "13"==> ADELANTO DE RENTA VITALICIA
-    If Not rs.EOF Or vlCodCauEndoso = "13" Then
+    If Not RS.EOF Or vlCodCauEndoso = "13" Then
     
     'vlCodCauEndoso = "08"==> ACTIVACION DE LAS PENSIONES DE SOBREVIVENCIA
     If vlCodCauEndoso = "08" Then
@@ -6732,7 +6891,7 @@ End Sub
        ' Dim rs      As ADODB.Recordset, cmd As ADODB.Command
                 Dim conn    As ADODB.Connection
                 Set conn = New ADODB.Connection
-                Set rs = New ADODB.Recordset ' CreateObject("ADODB.Recordset")
+                Set RS = New ADODB.Recordset ' CreateObject("ADODB.Recordset")
                 Set objCmd = New ADODB.Command ' CreateObject("ADODB.Command")
                 
                 conn.Provider = "OraOLEDB.Oracle"
@@ -6759,13 +6918,13 @@ End Sub
                  Set param4 = objCmd.CreateParameter("PCODUSUARIO", adVarChar, adParamInput, 10, PCODUSUARIO)
                 objCmd.Parameters.Append param4
                 
-                Set rs = objCmd.Execute
+                Set RS = objCmd.Execute
                 
                 conn.Close
                 
                 
                 Set conn = Nothing
-                Set rs = Nothing
+                Set RS = Nothing
                 Set objCmd = Nothing
     End Sub
     
@@ -6789,6 +6948,8 @@ Function flActualizarEndoso()
     Else
         vgSql = vgSql & " gls_observacion = NULL , "
     End If
+    
+    
     'F--- ABV 25/04/2005 ---
     vgSql = vgSql & " cod_usuariomodi = '" & vlGlsUsuarioModi & "' , "
     vgSql = vgSql & " fec_modi = '" & vlFecModi & "' , "
@@ -9019,7 +9180,7 @@ Err_flInsertarPolizaDef:
         MsgBox "Error Grave [ " & Err & Space(4) & Err.Description & " ]", vbCritical, "¡ERROR!..."
     End Select
 End Function
-
+         
 Function flFormatearDatosBeneficiarioDef(iFila As Integer) As Boolean
 '*On Error GoTo Err_flFormatearDatosBeneficiarioDef
 
@@ -9186,6 +9347,22 @@ Function flFormatearDatosBeneficiarioDef(iFila As Integer) As Boolean
      vl_ConUsoDatosCom_Ben = (Msf_BMGrilla.Text)
     
      
+     Msf_BMGrilla.Col = 49
+     vl_COD_MODTIPOCUENTA_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 50
+     vl_COD_TIPODOC_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 51
+     vl_NUM_DOC_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 52
+     vl_NOMBRE_MANC = (Msf_BMGrilla.Text)
+     
+     Msf_BMGrilla.Col = 53
+     vl_APELLIDO_MANC = (Msf_BMGrilla.Text)
+    
+    
     vlCodInsSalud = vlDefCodInsSalud
     vlCodModSalud = vlDefCodModSalud
     vlMtoPlanSalud = vlDefMtoPlanSalud
@@ -9395,13 +9572,19 @@ Function flInsertarBeneficiarioDef()
     vgSql = vgSql & ",prc_pensiongar, prc_pensionleg "
     If (Trim(vlGlsTelben2) <> "") Then vgSql = vgSql & ",gls_telben2" '--RRR 08/05/2013
     If (Trim(vlCodBanco) <> "00") Then vgSql = vgSql & ",cod_tipcta, cod_monbco, num_ctabco " '--RRR 24/01/2013
+    If Mid(Cmb_EndCauEnd, 1, 2) = "28" And Mid(Cmb_EndTipoEnd, 1, 1) = "O" Then
+        vgSql = vgSql & ",COD_MODTIPOCUENTA_MANC"
+        vgSql = vgSql & ",COD_TIPODOC_MANC"
+        vgSql = vgSql & ",NUM_DOC_MANC"
+        vgSql = vgSql & ",NOMBRE_MANC"
+        vgSql = vgSql & ",APELLIDO_MANC"
+    End If
     'mvg 20170904
     'INICIO GCP-FRACTAL 16042019
     vgSql = vgSql & ",ind_bolelec, NUM_CUENTA_CCI "
     vgSql = vgSql & ",CONS_TRAINFO "
     vgSql = vgSql & ",CONS_DATCOMER "
     'FIN GCP-FRACTAL 16042019
- 
     vgSql = vgSql & " ) VALUES ( "
     vgSql = vgSql & "'" & vlGlobalNumPoliza & "', "
     vgSql = vgSql & " " & vlGlobalNumEndosoCrear & ", "
@@ -9454,6 +9637,15 @@ Function flInsertarBeneficiarioDef()
     vgSql = vgSql & " " & str(vlPrcPensionLeg) & ""
     If (Trim(vlGlsTelben2) <> "") Then vgSql = vgSql & ",'" & Trim(vlGlsTelben2) & "'"
     If (Trim(vlCodBanco) <> "00") Then vgSql = vgSql & ",'" & Trim(vlCodTipcta) & "', '" & Trim(vlcodmonbco) & "', '" & Trim(vlnumctabco) & "'" '--RRR 24/01/2013
+    
+    If Mid(Cmb_EndCauEnd, 1, 2) = "28" And Mid(Cmb_EndTipoEnd, 1, 1) = "O" Then
+        vgSql = vgSql & ",'" & vl_COD_MODTIPOCUENTA_MANC & "'"
+        vgSql = vgSql & ",'" & vl_COD_TIPODOC_MANC & "'"
+        vgSql = vgSql & ",'" & vl_NUM_DOC_MANC & "'"
+        vgSql = vgSql & ",'" & vl_NOMBRE_MANC & "'"
+        vgSql = vgSql & ",'" & vl_APELLIDO_MANC & "'"
+    End If
+
     
     'mvg 20170904
     vgSql = vgSql & ",'" & vlBolelec & "'"
@@ -9915,6 +10107,22 @@ Private Sub Cmb_EndTipoEnd_KeyPress(KeyAscii As Integer)
        Cmb_EndCauEnd.SetFocus
     End If
 
+End Sub
+
+
+
+Private Sub Cmb_ModTipCta_Click()
+  If Left(Trim(Cmb_ModTipCta.Text), 2) = "01" Then
+    Cmb_TipDoc.Enabled = True
+    Txt_NroDocSecundario.Enabled = True
+    Txt_NombreSecundario.Enabled = True
+    Txt_ApellidosSecundario.Enabled = True
+  Else
+    Cmb_TipDoc.Enabled = False
+    Txt_NroDocSecundario.Enabled = False
+    Txt_NombreSecundario.Enabled = False
+    Txt_ApellidosSecundario.Enabled = False
+  End If
 End Sub
 
 Private Sub Cmb_PenNumIdent_Click()
@@ -11853,6 +12061,7 @@ Err_Cmd_Eliminar_Click:
     End Select
 End Sub
 
+
 Private Sub cmd_grabar_Click()
 On Error GoTo Err_Cmd_Grabar_Click
 
@@ -12404,7 +12613,8 @@ On Error GoTo Err_Cargar
     fgComboGeneral vgCodTabla_AltPen, Cmb_PMMod
 '    fgComboGeneral vgCodTabla_ViaPago, Cmb_ViaPago
     fgComboSucursal Cmb_Sucursal, "A"
-    
+    Call fgComboGeneral(vgCodTabla_ModTipCta, Cmb_ModTipCta)
+    Call fgComboTipoIdentificacion(Cmb_TipDoc)
     
     fgComboGeneral vgCodTabla_Par, Cmb_BMPar
     fgComboGeneral vgCodTabla_GruFam, Cmb_BMGrupFam
@@ -12574,6 +12784,13 @@ Next
 End Function
 'Fin Implementacion GobiernoDeDatos()_
 
+
+
+
+
+
+
+
 Private Sub Msf_BMGrilla_Click()
 On Error GoTo Err_Msf_BMGrilla_Click
     
@@ -12628,6 +12845,8 @@ Err_Msf_BOGrilla_Click:
         MsgBox "Error Grave [ " & Err & Space(4) & Err.Description & " ]", vbCritical, "¡ERROR!..."
     End Select
 End Sub
+
+
 
 
 
@@ -26861,6 +27080,7 @@ On Error GoTo Err_Aprobar
     End If
     vgRegistro.Close
     
+    
     'SOLO PARA LSO ENDOSO ORDINARIOS AQUI DEBE INSERTAR EN LA TABLA DE PRODUCCION EN LA POLIZA PD
 '
 '    If Cmd_Calcular.Enabled = False Then
@@ -26934,9 +27154,8 @@ On Error GoTo Err_Aprobar
     vlLog_valtabla = "" & iNumPoliza & "." & inumendoso & ",1"
     vlLog_trans = "DLT"
     Call flLog_Tabla
-'Fin Implementacion GobiernoDeDatos()
-
-    
+    'Fin Implementacion GobiernoDeDatos()
+    'vgConectarBD.RollbackTrans
     'Ingresar los Beneficiarios
     If Msf_BMGrilla.rows > 1 Then
         vlPos = 1
@@ -26945,13 +27164,10 @@ On Error GoTo Err_Aprobar
             Msf_BMGrilla.row = vlPos
             Call flFormatearDatosBeneficiario(Msf_BMGrilla.row)
             Msf_BMGrilla.Col = 0
-             
             'Implementacion GobiernoDeDatos(se insertan en las tablas endben de direccion y telefono)
             Call flCargarDatosBeneficiariosModDirec(Msf_BMGrilla.row)
             Call flInsertarBeneficiarioDirec("PP_TMAE_ENDBEN_DIRECCION", "PP_TMAE_ENDBEN_TELEFONO")
             'Implementacion GobiernoDeDatos()_
-            
-            
             vgSql = ""
             vgSql = "SELECT num_poliza  FROM PP_TMAE_ENDBEN "
             vgSql = vgSql & "WHERE "
@@ -28288,8 +28504,39 @@ On Error GoTo Err_flCargaDatosBeneficiariosMod
     Msf_BMGrilla.Col = 43
     If Len(Msf_BMGrilla.Text) <> 0 Then Cmb_ViaPago.ListIndex = fgBuscarPosicionCodigoCombo(Trim(Msf_BMGrilla.Text), Cmb_ViaPago)
 
-     
-     
+    '09  SOBREVIVENCIA DE JUB. LEGAL
+    '10  SOBREVIVENCIA DE JUB. ANTICIPADA
+    '04  JUBILACION LEGAL - -habiltada
+    '05  JUBILACION ANTICIPADA - -habiltada
+    If Mid(Cmb_EndCauEnd, 1, 2) = "28" And Mid(Cmb_EndTipoEnd, 1, 1) = "O" And _
+        (Mid(vlTipoPen, 1, 3) = 9 Or Mid(vlTipoPen, 1, 3) = 10 Or Mid(vlTipoPen, 1, 3) = 4 Or Mid(vlTipoPen, 1, 3) = 5) Then
+        Msf_BMGrilla.Col = 49 'COD_MODTIPOCUENTA_MANC
+        If Len(Msf_BMGrilla.Text) <> 0 Then Cmb_ModTipCta.ListIndex = fgBuscarPosicionCodigoCombo(Trim(Msf_BMGrilla.Text), Cmb_ModTipCta)
+        
+        Msf_BMGrilla.Col = 50 'COD_TIPODOC_MANC
+        If Len(Msf_BMGrilla.Text) <> 0 Then Cmb_TipDoc.ListIndex = fgBuscarPosicionCodigoCombo(Trim(Msf_BMGrilla.Text), Cmb_TipDoc)
+        
+        Msf_BMGrilla.Col = 51 'NUM_DOC_MANC
+        If Len(Msf_BMGrilla.Text) <> 0 Then
+            Txt_NroDocSecundario = Trim(Msf_BMGrilla.Text)
+        Else
+            Txt_NroDocSecundario.Text = ""
+        End If
+        
+        Msf_BMGrilla.Col = 52 'NOMBRE_MANC
+        If Len(Msf_BMGrilla.Text) <> 0 Then
+            Txt_NombreSecundario = Trim(Msf_BMGrilla.Text)
+        Else
+            Txt_NombreSecundario.Text = ""
+        End If
+        
+        Msf_BMGrilla.Col = 53 'APELLIDO_MANC
+        If Len(Msf_BMGrilla.Text) <> 0 Then
+            Txt_ApellidosSecundario = Trim(Msf_BMGrilla.Text)
+        Else
+            Txt_ApellidosSecundario.Text = ""
+        End If
+    End If
      
     'Cmb_ViaPago.Clear
     fgComboGeneral vgCodTabla_ViaPago, Cmb_ViaPago
@@ -29245,6 +29492,7 @@ Function flFormatearDatosBeneficiarioDefDirc(iFila As Integer) As Boolean
     Msf_BMGrilla.Col = 46
     vl_ConUsoDatosCom_Ben = (Msf_BMGrilla.Text)
     
+      
     vlCodInsSalud = vlDefCodInsSalud
     vlCodModSalud = vlDefCodModSalud
     vlMtoPlanSalud = vlDefMtoPlanSalud
@@ -29346,9 +29594,9 @@ Private Sub Ins_causa_preliminar(ByVal pnum_poliza As String, _
 On Error GoTo GestionError
 
        Dim conn    As ADODB.Connection
-       Dim rs As ADODB.Recordset
+       Dim RS As ADODB.Recordset
        Set conn = New ADODB.Connection
-       Set rs = New ADODB.Recordset ' CreateObject("ADODB.Recordset")
+       Set RS = New ADODB.Recordset ' CreateObject("ADODB.Recordset")
        
        Dim param1 As ADODB.Parameter
        Dim param2 As ADODB.Parameter
@@ -29398,7 +29646,7 @@ On Error GoTo GestionError
         objCmd.Parameters.Append param8
         
                            
-        Set rs = objCmd.Execute
+        Set RS = objCmd.Execute
         
         If Not IsNull(objCmd.Parameters.Item("p_outMsgError").Value) Then
           Mensaje = objCmd.Parameters.Item("p_outMsgError").Value
@@ -29410,7 +29658,7 @@ On Error GoTo GestionError
        
         conn.Close
         Set objCmd = Nothing
-        Set rs = Nothing
+        Set RS = Nothing
         Set conn = Nothing
         
         Exit Sub
@@ -29428,9 +29676,9 @@ Private Sub Ins_causa_Final(ByVal pnum_poliza As String, _
 On Error GoTo GestionError
 
        Dim conn    As ADODB.Connection
-       Dim rs As ADODB.Recordset
+       Dim RS As ADODB.Recordset
        Set conn = New ADODB.Connection
-       Set rs = New ADODB.Recordset ' CreateObject("ADODB.Recordset")
+       Set RS = New ADODB.Recordset ' CreateObject("ADODB.Recordset")
        
        Dim param1 As ADODB.Parameter
        Dim param2 As ADODB.Parameter
@@ -29463,7 +29711,7 @@ On Error GoTo GestionError
         Set param8 = objCmd.CreateParameter("p_outMsgError", adVarChar, adParamOutput, 200)
         objCmd.Parameters.Append param8
            
-        Set rs = objCmd.Execute
+        Set RS = objCmd.Execute
         
         If Not IsNull(objCmd.Parameters.Item("p_outMsgError").Value) Then
           Mensaje = objCmd.Parameters.Item("p_outMsgError").Value
@@ -29475,7 +29723,7 @@ On Error GoTo GestionError
        
         conn.Close
         Set objCmd = Nothing
-        Set rs = Nothing
+        Set RS = Nothing
         Set conn = Nothing
         
         Exit Sub

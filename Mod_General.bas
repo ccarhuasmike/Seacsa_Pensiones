@@ -43,6 +43,7 @@ Global Const vgCodTabla_SitInv = "SI"      'Situación de Invalidez
 Global Const vgCodTabla_SitHabDes = "SHD"  'Suspensión de Haberes y Descuentos
 Global Const vgCodTabla_TipCor = "TC"      'Tipo de Corredor
 Global Const vgCodTabla_TipCta = "TCT"     'Tipo de Cuenta de Depósito
+Global Const vgCodTabla_ModTipCta = "TCC"     'Modalidad Tipo de Cuenta de Dep?sito
 Global Const vgCodTabla_TipDoc = "TD"      'Tipo de Documento
 Global Const vgCodTabla_TipPagTem = "TE"   'Tipo de Pago de Pensiones Temporales
 Global Const vgCodTabla_TipEnd = "TEN"     'Tipo de Endoso
@@ -319,6 +320,13 @@ Public Type TyBeneficiarios
     CONS_TRAINFO As String
     CONS_DATCOMER As String
     'FIN GCP-FRACTAL 20190104
+
+    COD_MODTIPOCUENTA_MANC As String
+    COD_TIPODOC_MANC As String
+    NUM_DOC_MANC As String
+    NOMBRE_MANC As String
+    APELLIDO_MANC As String
+    
    
 End Type
 
@@ -2091,7 +2099,7 @@ On Error GoTo Err_Main
         End If
     End If
     
-    vgPassWord = fgDesPassword(vgPassWord)
+    vgPassWord = "rentcalidad64" 'fgDesPassword(vgPassWord)
     'vgPassWord = "rentcalidad64"
 
     'Valida Si Existe Nombre de la entrada para definir DSN de SisSin
@@ -2535,7 +2543,7 @@ On Error GoTo Err_BuscarGlosa
     vgSql = vgSql & "cod_elemento = '" & iElemento & "' "
     Set vlRsDescripcion = vgConexionBD.Execute(vgSql)
     If Not vlRsDescripcion.EOF Then
-        fgBuscarGlosaElemento = vlRsDescripcion!gls_elemento
+        fgBuscarGlosaElemento = vlRsDescripcion!GLS_ELEMENTO
     End If
     vlRsDescripcion.Close
     
@@ -3622,11 +3630,11 @@ Function f_valida_numeros(ByVal icaracter As Integer)
 End Function
 Function FechaServidor() As Date
 
-Dim rs As ADODB.Recordset
-Set rs = New ADODB.Recordset
+Dim RS As ADODB.Recordset
+Set RS = New ADODB.Recordset
 
-rs.Open "select to_char(sysdate,'dd/mm/yyyy')as fecha from dual", vgConexionBD, adOpenStatic, adLockReadOnly
-FechaServidor = rs!fecha
+RS.Open "select to_char(sysdate,'dd/mm/yyyy')as fecha from dual", vgConexionBD, adOpenStatic, adLockReadOnly
+FechaServidor = RS!fecha
 
 End Function
 
@@ -3760,7 +3768,7 @@ On Error GoTo Err_ComboSucursal
     End If
     
     Do While Not vlRsCombo.EOF
-        iCombo.AddItem ((Trim(vlRsCombo!COD_ELEMENTO) & " - " & Trim(vlRsCombo!gls_elemento)))
+        iCombo.AddItem ((Trim(vlRsCombo!COD_ELEMENTO) & " - " & Trim(vlRsCombo!GLS_ELEMENTO)))
         vlRsCombo.MoveNext
     Loop
     vlRsCombo.Close

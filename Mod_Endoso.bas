@@ -2113,6 +2113,7 @@ On Error GoTo Err_flCargaEstructuraBeneficiarios
     vgSql = vgSql & ",NUM_CUENTA_CCI "
     vgSql = vgSql & ",Cod_ViaPago, CONS_TRAINFO, CONS_DATCOMER "
     vgSql = vgSql & ",COD_SUCURSAL "
+    vgSql = vgSql & ",COD_MODTIPOCUENTA_MANC , COD_TIPODOC_MANC, NUM_DOC_MANC, NOMBRE_MANC, APELLIDO_MANC "
     vgSql = vgSql & " FROM " & iNombreTabla & " WHERE "
     vgSql = vgSql & "num_poliza = '" & Trim(iPoliza) & "' AND "
     vgSql = vgSql & "num_endoso = " & iEndoso & " "
@@ -2221,7 +2222,6 @@ On Error GoTo Err_flCargaEstructuraBeneficiarios
                 .cod_monbco = IIf(IsNull(vgRegistro!cod_monbco), "NS", vgRegistro!cod_monbco)
                 .num_ctabco = IIf(IsNull(vgRegistro!num_ctabco), "", vgRegistro!num_ctabco)
                 .Cod_Banco = IIf(IsNull(vgRegistro!Cod_Banco), "00", vgRegistro!Cod_Banco)
-               
                 'mvg 20170904
                 .ind_bolelec = IIf(IsNull(vgRegistro!ind_bolelec), "N", vgRegistro!ind_bolelec)
                 'End If
@@ -2236,7 +2236,12 @@ On Error GoTo Err_flCargaEstructuraBeneficiarios
                 .Cod_Sucursal = IIf(IsNull(vgRegistro!Cod_Sucursal), "00", vgRegistro!Cod_Sucursal)
                 .CONS_TRAINFO = IIf(IsNull(vgRegistro!CONS_TRAINFO), "0", vgRegistro!CONS_TRAINFO)
                 .CONS_DATCOMER = IIf(IsNull(vgRegistro!CONS_DATCOMER), "0", vgRegistro!CONS_DATCOMER)
-                
+                'Modalidad Tipo de Cuenta
+                .COD_MODTIPOCUENTA_MANC = IIf(IsNull(vgRegistro!COD_MODTIPOCUENTA_MANC), "00", vgRegistro!COD_MODTIPOCUENTA_MANC)
+                .COD_TIPODOC_MANC = IIf(IsNull(vgRegistro!COD_TIPODOC_MANC), "", vgRegistro!COD_TIPODOC_MANC)
+                .NUM_DOC_MANC = IIf(IsNull(vgRegistro!NUM_DOC_MANC), "", vgRegistro!NUM_DOC_MANC)
+                .NOMBRE_MANC = IIf(IsNull(vgRegistro!NOMBRE_MANC), "", vgRegistro!NOMBRE_MANC)
+                .APELLIDO_MANC = IIf(IsNull(vgRegistro!APELLIDO_MANC), "", vgRegistro!APELLIDO_MANC)
                 'FIN GCP - FRACTAL 01042019
           End With
              vgRegistro.MoveNext
@@ -2372,7 +2377,8 @@ Dim vlPrcPensionGar As Double
                & (vlCargaFecTerpagoPenGar) & vbTab _
                & (vlCargaFecMat) & vbTab _
                & (vlPrcPensionGar) & vbTab & (.Prc_PensionLeg) & vbTab _
-               & (.Cod_Direccion) & vbTab & (.Gls_DirBen) & vbTab & (.Gls_FonoBen) & vbTab & (.Gls_CorreoBen) & vbTab & (.Gls_Telben2) & vbTab & (.Cod_Banco) & vbTab & (.cod_tipcta) & vbTab & (.cod_monbco) & vbTab & (.num_ctabco) & vbTab & (.ind_bolelec) & vbTab & (.NUM_CUENTA_CCI) & vbTab & (.Cod_ViaPago) & vbTab & (.Cod_Sucursal) & vbTab & (.CONS_TRAINFO) & vbTab & (.CONS_DATCOMER)  'mvg 20170904
+               & (.Cod_Direccion) & vbTab & (.Gls_DirBen) & vbTab & (.Gls_FonoBen) & vbTab & (.Gls_CorreoBen) & vbTab & (.Gls_Telben2) & vbTab & (.Cod_Banco) & vbTab & (.cod_tipcta) & vbTab & (.cod_monbco) & vbTab & (.num_ctabco) & vbTab & (.ind_bolelec) & vbTab & (.NUM_CUENTA_CCI) & vbTab & (.Cod_ViaPago) & vbTab & (.Cod_Sucursal) & vbTab & (.CONS_TRAINFO) & vbTab & (.CONS_DATCOMER) & vbTab & "" & vbTab & vbTab & (.COD_MODTIPOCUENTA_MANC) & vbTab & (.COD_TIPODOC_MANC) & vbTab & (.NUM_DOC_MANC) & vbTab & (.NOMBRE_MANC) & vbTab & (.APELLIDO_MANC)
+               'mvg 20170904
     
           End With
     Wend
@@ -2512,6 +2518,16 @@ Dim vlPos, vlNumero As Integer
                  .CONS_TRAINFO = (iGrilla.Text)
                  iGrilla.Col = 46
                  .CONS_DATCOMER = (iGrilla.Text)
+                   iGrilla.Col = 49
+                 .COD_MODTIPOCUENTA_MANC = (iGrilla.Text)
+                   iGrilla.Col = 50
+                 .COD_TIPODOC_MANC = (iGrilla.Text)
+                   iGrilla.Col = 51
+                 .NUM_DOC_MANC = (iGrilla.Text)
+                   iGrilla.Col = 52
+                 .NOMBRE_MANC = (iGrilla.Text)
+                   iGrilla.Col = 53
+                 .APELLIDO_MANC = (iGrilla.Text)
             End With
             
             vlPos = vlPos + 1
